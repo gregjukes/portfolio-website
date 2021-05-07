@@ -1,0 +1,137 @@
+/*
+colors used:
+Black: #000000;
+Dark blue: #13334c;
+Purple: #4627ff; Visited: #5100e0; Active: #4600e0
+Lighter blue: #005792;
+Orange: #fdf500; Active: #e63fob
+Parchment: #f7f7eb;
+White: #ffffff;
+*/
+header {
+  background-color: #f7f7eb;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+p {
+  font-family: Source Serif Pro;
+  font-size: 16;
+  font-weight: 400;
+}
+
+a {
+  color: #4627ff;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+a:visited {
+  color: #005792;
+}
+
+a:hover,
+a:focus {
+  color: #5100e0;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #4600e0;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #f7f7eb;
+  color: #005792;
+  /* needed to override the default link color */
+  font-size: 1.3em;
+  font-weight: 400;
+  font-variant: normal;
+  /* needed to override the default small-caps font variant */
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #005792;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid #5100e0;
+}
+
+.button:active {
+  border: 3px solid #4600e0;
+}
+
+.button.contact {
+  background-color: #fd5f00;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  font-variant: normal;
+  /* needed to override the default small-caps font variant */
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #fd5f00;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button.contact:hover,
+.button.contact:focus {
+  background-color: transparent;
+  color: #fd5f00;
+  border: 2px solid #fd5f00;
+}
+
+.button.contact:active {
+  background-color: transparent;
+  color: #e63f0b;
+  border: 2px solid #e63f0b;
+}
