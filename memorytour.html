@@ -1,380 +1,682 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Greg Jukes" />
+    <meta
+      name="description"
+      content="Memory Tour UX portfolio project of a collabrative scavenger hunt webapp"
+    />
+    <title>Memory Tour UX Portfolio Project</title>
+    <!--Styling-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <!-- normalize styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Greg Jukes">
-  <meta name="description" content="Memory Tour UX portfolio project of a collabrative scavenger hunt webapp">
-  <title>Memory Tour UX Portfolio Project</title>
-  <!--Styling-->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"><!-- normalize styles -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-</head>
-
-<body id="memorytour" class="portfolio">
-  <header>
-    <div>
-      <!-- open header div -->
-      <a href="index.html">Greg Jukes</a>
-      <!-- Name as hyperlink instead of logo image -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div><!-- end header div -->
-  </header>
-  <main>
-    <div id="hero">
-      <!-- open page title block -->
-      <h1>Memory Tour</h1>
-    </div><!-- end page title block -->
-    <div id="content">
-      <!-- open content container -->
-      <picture>
-        <source srcset="img/memory_tour/mt_header@1x.png" media="(max-width:767px)">
-        <img src="img/memory_tour/mt_header@2x.png" alt="Memory Tour a collaborative scavenger hunt web application">
-      </picture>
-      <div id="overview">
-        <!--open overview-->
-        <h2>Overview</h2>
-        <p>Context: Memory Tour is a student project created for Career Foundry’s UX Immersion course.</p>
-        <p>Design objective: Enable players to enjoy social scavenger hunts for real objects and locations in their own cities</p>
-        <p>Role: UX Designer</p>
+  <body id="memorytour" class="portfolio">
+    <header>
+      <div>
+        <!-- open header div -->
+        <a href="index.html">Greg Jukes</a>
+        <!-- Name as hyperlink instead of logo image -->
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <!--end overview-->
-      <div id="research">
-        <!-- open research section -->
-        <h2>Research</h2>
-        <div>
-          <!-- open research row that holds two columns -->
-          <!-- question of how to make this two columns when on desktop/tablet and three sections on mobile-->
+      <!-- end header div -->
+    </header>
+    <main>
+      <div id="hero">
+        <!-- open page title block -->
+        <h1>Memory Tour</h1>
+      </div>
+      <!-- end page title block -->
+      <div id="content">
+        <!-- open content container -->
+        <picture>
+          <source
+            srcset="img/memory_tour/mt_header@1x.png"
+            media="(max-width:767px)"
+          />
+          <img
+            src="img/memory_tour/mt_header@2x.png"
+            alt="Memory Tour a collaborative scavenger hunt web application"
+          />
+        </picture>
+        <div id="overview">
+          <!--open overview-->
+          <h2>Overview</h2>
+          <p>
+            Context: Memory Tour is a student project created for Career
+            Foundry’s UX Immersion course.
+          </p>
+          <p>
+            Design objective: Enable players to enjoy social scavenger hunts for
+            real objects and locations in their own cities
+          </p>
+          <p>Role: UX Designer</p>
+        </div>
+        <!--end overview-->
+        <div id="research">
+          <!-- open research section -->
+          <h2>Research</h2>
           <div>
-            <!-- open research copy column -->
-            <h3>Talking to users</h3>
-            <p>Surveys and interviews gave me perspective on how folks think about scavenger hunts and their relationships with social games in person and online.</p>
-            <p>Organizing responses from my interviews into behaviors/attitudes, needs/goals, frustrations, quotes, and facts structured my data so I could create user personas for Memory Tour based on real-world insights.</p>
-          </div><!-- end research copy column -->
-          <div>
-            <!-- open interview notes image column -->
-            <picture>
-              <source srcset="img/memory_tour/interview_notes@1x.jpeg" media="(max-width:767px)">
-              <img src="img/memory_tour/interview_notes@1x.jpeg" alt="Whiteboard covered in notes from interviews on colrful sticky notes">
-            </picture>
-          </div><!-- end interview notes image column -->
-          <div>
-            <!-- open personas copy column -->
-            <!-- this should go under research copy, next to the image on wider screens, but under the image on smaller screens-->
-            <h3>Working with personas</h3>
-            <p>Journey Maps outline scenarios that help answer the question: “Why will a user like Esmeralda want to create an event with Memory Tour?”</p>
-          </div><!-- end personas copy column -->
-        </div><!-- end row that holds two columns -->
-        <div>
-          <!-- open journey map container -->
-          <picture>
-            <source srcset="img/memory_tour/journey_map@1x.png" media="(max-width:767px)">
-            <img src="img/memory_tour/journey_map@2x.png" alt="Journey map for user persona, Esmeralda outlining the phases she would go through to collaboratively create a scavenger hunt with friends for a celebration">
-          </picture>
-        </div><!-- end journey map container -->
-        <div id="ia">
-          <!-- open IA section -->
-          <h3>Translating users’ need to pages of the application</h3>
-          <div>
-            <!-- open sitemap copy -->
-            <p>Interviews along and user personas and flows identified three primary uses of the app:</p>
-            <ol>
-              <li>
-                <p>Creating scavenger hunts for friends</p>
-              </li>
-              <li>
-                <p>Playing scavenger hunts</p>
-              </li>
-              <li>
-                <p>Sharing memories from a group activity</p>
-              </li>
-            </ol>
-          </div><!-- end sitemap copy -->
-          <div>
-            <!-- open sitemap image container -->
-            <picture>
-              <source srcset="img/memory_tour/sitemaps@1x.png" media="(max-width:767px)">
-              <img src="img/memory_tour/sitemaps@2x.png" alt="First and second iterations of the Memory Tour sitemap">
-            </picture>
-          </div><!-- end sitemap image container -->
-          <div>
-            <!-- open cardsort copy -->
-            <p>Data from a card sort using Optimal Workshop allowed me to refine the language and categories that structure the site based on the three primary uses:</p>
-            <ol>
-              <li>
-                <p>Create is where users build scavenger hunts</p>
-              </li>
-              <li>
-                <p>Tours are the games themselves</p>
-              </li>
-              <li>
-                <p>Profile contains user-specific content including memories, tours created/in progress, and tours played </p>
-              </li>
-            </ol>
-          </div><!-- end cardsort copy -->
-          <div>
-            <!-- open cardsort image container -->
-            <picture>
-              <source srcset="img/memory_tour/card_sort_data@1x.png" media="(max-width:767px)">
-              <img src="img/memory_tour/card_sort_data@2x.png" alt="Card sort data visualized as 3-D groupings with labels for Tours, Create, Profile, and Info and a dendogram showing where card sort results converge">
-            </picture>
-          </div><!-- end cardsort image container -->
-        </div><!-- end IA section -->
-      </div><!-- end research section -->
-      <div id="ideation">
-        <!-- open ideation section -->
-        <h2>Ideation</h2>
-        <div>
-          <!-- open wireframes section -->
-          <h3>Wireframes</h3>
-          <p>I use an assortment of tools to create wireframes and prototypes at different levels of fidelity so I can cleanly and efficiently communicate my evolving design concepts.</p>
-          <p>Using Balsamiq to turn my onboarding sketches into mid-fidelity wireframes helped me create a cleaner image of these pages incorporating standard UI elements.</p>
-          <div>
-            <!-- open balsamiq image container -->
-            <picture>
-              <source srcset="img/memory_tour/pencil_balsamiq@1x.jpeg" media="(max-width:767px)">
-              <img src="img/memory_tour/pencil_balsamiq@2x.jpeg" alt="Pencil and paper wireframes transformed into mid-fidelity wireframes using Balsamiq">
-            </picture>
-          </div><!-- end balsamiq image container -->
-          <p>For my initial prototype of the tour creation sequence, I went directly from rough, low-fidelity sketches to high-fidelity designs in Adobe XD that I could implement right away in user testing.</p>
-          <div>
-            <!-- open row with two columns for lowfi and highfi wireframes images -->
+            <!-- open research row that holds two columns -->
+            <!-- question of how to make this two columns when on desktop/tablet and three sections on mobile-->
             <div>
-              <!-- open low-fi image container -->
+              <!-- open research copy column -->
+              <h3>Talking to users</h3>
+              <p>
+                Surveys and interviews gave me perspective on how folks think
+                about scavenger hunts and their relationships with social games
+                in person and online.
+              </p>
+              <p>
+                Organizing responses from my interviews into
+                behaviors/attitudes, needs/goals, frustrations, quotes, and
+                facts structured my data so I could create user personas for
+                Memory Tour based on real-world insights.
+              </p>
+            </div>
+            <!-- end research copy column -->
+            <div>
+              <!-- open interview notes image column -->
               <picture>
-                <source srcset="img/memory_tour/lowfi_wireframes@1x.jpeg" media="(max-width:767px)">
-                <img src="img/memory_tour/lowfi_wireframes@2x.jpeg" alt="Rough sketches of a sequence of pages for creating a tour">
+                <source
+                  srcset="img/memory_tour/interview_notes@1x.jpeg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/interview_notes@1x.jpeg"
+                  alt="Whiteboard covered in notes from interviews on colrful sticky notes"
+                />
               </picture>
-            </div><!-- end low-fi image container -->
+            </div>
+            <!-- end interview notes image column -->
             <div>
-              <!-- open hi-fi image container -->
-              <picture>
-                <source srcset="img/memory_tour/early_create_wireframes@1x.png" media="(max-width:767px)">
-                <img src="img/memory_tour/early_create_wireframes@2x.png" alt="High fidelity wireframes made in Adobe XD of the same create sequence shown in the rough sketches">
-              </picture>
-            </div><!-- end hi-fi image container -->
-          </div><!-- end row with two columns for lowfi and highfi wireframes images -->
-        </div><!-- end wireframes section -->
-        <div>
-          <!-- open space for change section -->
-          <h3>Making space for change</h3>
-          <p>My initial low- and mid-fidelity wireframes of the tour search page helped me clarify content and actions, but the design was too cluttered. I quickly sketched out a few ideas for how my location search might look based on existing map
-            apps and search pages (Google Maps, Yelp, Facebook), trying out a few different organization patterns so I could confidently build high-fidelity wireframes in Adobe XD.</p>
+              <!-- open personas copy column -->
+              <!-- this should go under research copy, next to the image on wider screens, but under the image on smaller screens-->
+              <h3>Working with personas</h3>
+              <p>
+                Journey Maps outline scenarios that help answer the question:
+                “Why will a user like Esmeralda want to create an event with
+                Memory Tour?”
+              </p>
+            </div>
+            <!-- end personas copy column -->
+          </div>
+          <!-- end row that holds two columns -->
           <div>
-            <!-- open tour search image container -->
+            <!-- open journey map container -->
             <picture>
-              <source srcset="img/memory_tour/tour_search@1x.png" media="(max-width:767px)">
-              <img src="img/memory_tour/tour_search@2x.png"
-                alt="From left to right: a rough sketch of a tour search page above a mid-fidelity wirframe of the same, four pencil wireframes with notes sketching out a new sequence of four pages for finding a tour, a high-fidelity wireframe of the new sequence">
+              <source
+                srcset="img/memory_tour/journey_map@1x.png"
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/memory_tour/journey_map@2x.png"
+                alt="Journey map for user persona, Esmeralda outlining the phases she would go through to collaboratively create a scavenger hunt with friends for a celebration"
+              />
             </picture>
-          </div><!-- end tour search image container -->
-        </div><!-- end space for change section -->
-      </div><!-- end ideation section -->
-      <div id="testing">
-        <!-- open testing section -->
-        <h2>Testing</h2>
-        <div>
-          <!-- open usability test section -->
-          <h3>Remote, moderated usability test</h3>
-          <div>
-            <!-- open row with two columns for test info -->
+          </div>
+          <!-- end journey map container -->
+          <div id="ia">
+            <!-- open IA section -->
+            <h3>Translating users’ need to pages of the application</h3>
             <div>
-              <!-- open objectives and goals column -->
-              <h4>Test Objectives and Goals</h4>
-              <ul>
-                <li>
-                  <p>The goal of this test is to asses the basic functionality of the prototype and its learnability for new users interacting with the app for the first time.</p>
-                </li>
-                <li>
-                  <p>Determine if participants can intuitively navigate through the app.</p>
-                </li>
-                <li>
-                  <p>Observe how users attempt to look for a tour to play, create a tour of their own, and share photo memories from their homepage. Can they accomplish these tasks?</p>
-                </li>
-                <li>
-                  <p>Gauge users’ initial satisfaction with the product.</p>
-                </li>
-              </ul>
-            </div><!-- end objectives and goals column -->
-            <div>
-              <!-- open participants and tasks column -->
-              <h4>Participants and Tasks</h4>
-              <p>Six participants took part in the usability test. Most were in our target demographic of 18-35 years old living in an urban area, though there were a couple older participants and some folks lived in suburban or rural areas. At this
-                stage of testing, these variations simply provide a wider range of responses rather than creating concern about missing key insights from focusing only on the target audience.</p>
-              <p>This test asked participants to complete three of the primary tasks in the app as identified by our user personas:</p>
+              <!-- open sitemap copy -->
+              <p>
+                Interviews along and user personas and flows identified three
+                primary uses of the app:
+              </p>
               <ol>
                 <li>
-                  <p>Find a tour</p>
+                  <p>Creating scavenger hunts for friends</p>
                 </li>
                 <li>
-                  <p>Create a tour</p>
+                  <p>Playing scavenger hunts</p>
                 </li>
                 <li>
-                  <p>Share memories with friends</p>
+                  <p>Sharing memories from a group activity</p>
                 </li>
               </ol>
-            </div><!-- end participants and tasks column -->
-          </div><!-- end row with two columns for test info -->
-          <p>See the full <a href="https://drive.google.com/file/d/1IjfcPNy08Fa80io-PwjpV3E88Zlurpkr/view?usp=sharing">test plan</a> and <a href="https://drive.google.com/file/d/1mxJjagKZFJS62ddKHZJuL0aIndzE69s9/view?usp=sharing">script</a> via these
-            links.</p>
-        </div><!-- end usability test section -->
-        <h3>Results</h3>
-        <div>
-          <!-- open results image container -->
-          <picture>
-            <source srcset="img/memory_tour/rainbow_spreadsheet@1x.jpeg" media="(max-width:767px)">
-            <img src="img/memory_tour/rainbow_spreadsheet@2x.jpeg" alt="Rainbow colored spreadsheet showing results from usability tests">
-          </picture>
-        </div><!-- end results image container -->
-        <div>
-          <!-- open results copy container -->
-          <p>Familiar is good, creating is hard</p>
-          <ul>
-            <li>
-              <p>Testers found the prototype most satisfying and intuitive to use on pages where the design aligns closely with existing products: Tours is modeled after common map apps and Yelp, Share Memories is modeled after iOS photo sharing.</p>
-            </li>
-            <li>
-              <p>This satisfaction is reflected in their comments and ratings for the standard ease question asked after each task. Tasks 1 and 3 (find a tour and share a memory) had high SEQ averages and comments including: “it did exactly what I
-                thought it would do” and “it was how all sharing in the world happens”</p>
-            </li>
-            <li>
-              <p>Testers had more trouble working through the steps of creating a tour and some found the process frustrating: “I spent most of [the task] confused”</p>
-            </li>
-            <li>
-              <p>Creating a Tour is a key activity for the app and something that will make it unique. The issues uncovered by the test participants offer important insights into what changes need to be made.</p>
-            </li>
-          </ul>
-        </div><!-- end results copy container -->
-      </div><!-- end testing section -->
-      <div id="revisions">
-        <!-- open revisions section -->
-        <h2>Revisions</h2>
-        <div>
-          <!-- open row with two columns for revisions -->
+            </div>
+            <!-- end sitemap copy -->
+            <div>
+              <!-- open sitemap image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/sitemaps@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/sitemaps@2x.png"
+                  alt="First and second iterations of the Memory Tour sitemap"
+                />
+              </picture>
+            </div>
+            <!-- end sitemap image container -->
+            <div>
+              <!-- open cardsort copy -->
+              <p>
+                Data from a card sort using Optimal Workshop allowed me to
+                refine the language and categories that structure the site based
+                on the three primary uses:
+              </p>
+              <ol>
+                <li>
+                  <p>Create is where users build scavenger hunts</p>
+                </li>
+                <li>
+                  <p>Tours are the games themselves</p>
+                </li>
+                <li>
+                  <p>
+                    Profile contains user-specific content including memories,
+                    tours created/in progress, and tours played 
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <!-- end cardsort copy -->
+            <div>
+              <!-- open cardsort image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/card_sort_data@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/card_sort_data@2x.png"
+                  alt="Card sort data visualized as 3-D groupings with labels for Tours, Create, Profile, and Info and a dendogram showing where card sort results converge"
+                />
+              </picture>
+            </div>
+            <!-- end cardsort image container -->
+          </div>
+          <!-- end IA section -->
+        </div>
+        <!-- end research section -->
+        <div id="ideation">
+          <!-- open ideation section -->
+          <h2>Ideation</h2>
           <div>
-            <!-- open revisions copy column -->
-            <p>Guiding users through creating a tour</p>
-            <p>The overarching issue with the initial design (top) was that users felt unsure about what to do, so the new design (bottom) integrates more descriptive text throughout each screen to guide users in making a tour. By making the language
-              more specific and detailed, I hope to help users past the learning curve of their first experience. Several testers indicated that the creation was fun and made sense once they’d figured it out. Hopefully these
-              redesigns will allow them to figure it out with more certainty on first glance.</p>
-            <p>Key changes include:</p>
+            <!-- open wireframes section -->
+            <h3>Wireframes</h3>
+            <p>
+              I use an assortment of tools to create wireframes and prototypes
+              at different levels of fidelity so I can cleanly and efficiently
+              communicate my evolving design concepts.
+            </p>
+            <p>
+              Using Balsamiq to turn my onboarding sketches into mid-fidelity
+              wireframes helped me create a cleaner image of these pages
+              incorporating standard UI elements.
+            </p>
+            <div>
+              <!-- open balsamiq image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/pencil_balsamiq@1x.jpeg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/pencil_balsamiq@2x.jpeg"
+                  alt="Pencil and paper wireframes transformed into mid-fidelity wireframes using Balsamiq"
+                />
+              </picture>
+            </div>
+            <!-- end balsamiq image container -->
+            <p>
+              For my initial prototype of the tour creation sequence, I went
+              directly from rough, low-fidelity sketches to high-fidelity
+              designs in Adobe XD that I could implement right away in user
+              testing.
+            </p>
+            <div>
+              <!-- open row with two columns for lowfi and highfi wireframes images -->
+              <div>
+                <!-- open low-fi image container -->
+                <picture>
+                  <source
+                    srcset="img/memory_tour/lowfi_wireframes@1x.jpeg"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/memory_tour/lowfi_wireframes@2x.jpeg"
+                    alt="Rough sketches of a sequence of pages for creating a tour"
+                  />
+                </picture>
+              </div>
+              <!-- end low-fi image container -->
+              <div>
+                <!-- open hi-fi image container -->
+                <picture>
+                  <source
+                    srcset="img/memory_tour/early_create_wireframes@1x.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/memory_tour/early_create_wireframes@2x.png"
+                    alt="High fidelity wireframes made in Adobe XD of the same create sequence shown in the rough sketches"
+                  />
+                </picture>
+              </div>
+              <!-- end hi-fi image container -->
+            </div>
+            <!-- end row with two columns for lowfi and highfi wireframes images -->
+          </div>
+          <!-- end wireframes section -->
+          <div>
+            <!-- open space for change section -->
+            <h3>Making space for change</h3>
+            <p>
+              My initial low- and mid-fidelity wireframes of the tour search
+              page helped me clarify content and actions, but the design was too
+              cluttered. I quickly sketched out a few ideas for how my location
+              search might look based on existing map apps and search pages
+              (Google Maps, Yelp, Facebook), trying out a few different
+              organization patterns so I could confidently build high-fidelity
+              wireframes in Adobe XD.
+            </p>
+            <div>
+              <!-- open tour search image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/tour_search@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/tour_search@2x.png"
+                  alt="From left to right: a rough sketch of a tour search page above a mid-fidelity wirframe of the same, four pencil wireframes with notes sketching out a new sequence of four pages for finding a tour, a high-fidelity wireframe of the new sequence"
+                />
+              </picture>
+            </div>
+            <!-- end tour search image container -->
+          </div>
+          <!-- end space for change section -->
+        </div>
+        <!-- end ideation section -->
+        <div id="testing">
+          <!-- open testing section -->
+          <h2>Testing</h2>
+          <div>
+            <!-- open usability test section -->
+            <h3>Remote, moderated usability test</h3>
+            <div>
+              <!-- open row with two columns for test info -->
+              <div>
+                <!-- open objectives and goals column -->
+                <h4>Test Objectives and Goals</h4>
+                <ul>
+                  <li>
+                    <p>
+                      The goal of this test is to asses the basic functionality
+                      of the prototype and its learnability for new users
+                      interacting with the app for the first time.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Determine if participants can intuitively navigate through
+                      the app.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Observe how users attempt to look for a tour to play,
+                      create a tour of their own, and share photo memories from
+                      their homepage. Can they accomplish these tasks?
+                    </p>
+                  </li>
+                  <li>
+                    <p>Gauge users’ initial satisfaction with the product.</p>
+                  </li>
+                </ul>
+              </div>
+              <!-- end objectives and goals column -->
+              <div>
+                <!-- open participants and tasks column -->
+                <h4>Participants and Tasks</h4>
+                <p>
+                  Six participants took part in the usability test. Most were in
+                  our target demographic of 18-35 years old living in an urban
+                  area, though there were a couple older participants and some
+                  folks lived in suburban or rural areas. At this stage of
+                  testing, these variations simply provide a wider range of
+                  responses rather than creating concern about missing key
+                  insights from focusing only on the target audience.
+                </p>
+                <p>
+                  This test asked participants to complete three of the primary
+                  tasks in the app as identified by our user personas:
+                </p>
+                <ol>
+                  <li>
+                    <p>Find a tour</p>
+                  </li>
+                  <li>
+                    <p>Create a tour</p>
+                  </li>
+                  <li>
+                    <p>Share memories with friends</p>
+                  </li>
+                </ol>
+              </div>
+              <!-- end participants and tasks column -->
+            </div>
+            <!-- end row with two columns for test info -->
+            <p>
+              See the full
+              <a
+                href="https://drive.google.com/file/d/1IjfcPNy08Fa80io-PwjpV3E88Zlurpkr/view?usp=sharing"
+                >test plan</a
+              >
+              and
+              <a
+                href="https://drive.google.com/file/d/1mxJjagKZFJS62ddKHZJuL0aIndzE69s9/view?usp=sharing"
+                >script</a
+              >
+              via these links.
+            </p>
+          </div>
+          <!-- end usability test section -->
+          <h3>Results</h3>
+          <div>
+            <!-- open results image container -->
+            <picture>
+              <source
+                srcset="img/memory_tour/rainbow_spreadsheet@1x.jpeg"
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/memory_tour/rainbow_spreadsheet@2x.jpeg"
+                alt="Rainbow colored spreadsheet showing results from usability tests"
+              />
+            </picture>
+          </div>
+          <!-- end results image container -->
+          <div>
+            <!-- open results copy container -->
+            <p>Familiar is good, creating is hard</p>
             <ul>
               <li>
-                <p>Breaking the first create page into two parts: one page for naming the tour followed by a building page</p>
+                <p>
+                  Testers found the prototype most satisfying and intuitive to
+                  use on pages where the design aligns closely with existing
+                  products: Tours is modeled after common map apps and Yelp,
+                  Share Memories is modeled after iOS photo sharing.
+                </p>
               </li>
               <li>
-                <p>Changing wording on key buttons to reduce confusion</p>
+                <p>
+                  This satisfaction is reflected in their comments and ratings
+                  for the standard ease question asked after each task. Tasks 1
+                  and 3 (find a tour and share a memory) had high SEQ averages
+                  and comments including: “it did exactly what I thought it
+                  would do” and “it was how all sharing in the world happens”
+                </p>
               </li>
               <li>
-                <p>More descriptions on each page, button, and input field</p>
+                <p>
+                  Testers had more trouble working through the steps of creating
+                  a tour and some found the process frustrating: “I spent most
+                  of [the task] confused”
+                </p>
+              </li>
+              <li>
+                <p>
+                  Creating a Tour is a key activity for the app and something
+                  that will make it unique. The issues uncovered by the test
+                  participants offer important insights into what changes need
+                  to be made.
+                </p>
               </li>
             </ul>
-          </div><!-- end revisions copy column -->
+          </div>
+          <!-- end results copy container -->
+        </div>
+        <!-- end testing section -->
+        <div id="revisions">
+          <!-- open revisions section -->
+          <h2>Revisions</h2>
           <div>
-            <!-- open revisions image column -->
-            <picture>
-              <source srcset="img/memory_tour/create@1x.png" media="(max-width:767px)">
-              <img src="img/memory_tour/create@2x.png" alt="Top: original sequence of create pages, Bottom: revised sequence of create pages after testing">
-            </picture>
-          </div><!-- end revisions image column -->
-        </div><!-- end row with two columns for revisions -->
-      </div><!-- end revisions section -->
-      <div id="prototype">
-        <!-- open prototype section -->
-        <h2>Prototype</h2>
-        <a href="https://xd.adobe.com/view/8c592e5e-4aa9-42a8-a69b-22404cf6403e-d90a/">Explore the prototype</a>
-      </div><!-- end prototype section -->
-      <div id="next_steps">
-        <!-- open next steps section -->
-        <h2>Next Steps</h2>
-        <p>Memory Tour’s next steps for iteration include:</p>
-        <ol>
-          <li>
-            <p>Testing the current prototype to see if the changes made to the create sequence have made it easier for users experiencing the app for the first time to make a tour and if any new issues have been created.</p>
-          </li>
-          <li>
-            <p>Turning low-fi wireframes of the actual gameplay sequence for playing a tour into a mid- or hi-fi prototype to test this aspect of the app with users.</p>
-          </li>
-          <li>
-            <p>Reviewing the style guide and design language system to make sure they accurately describe the current look and feel of the app.</p>
-          </li>
-          <li>
-            <p>Consulting the design brief and business requirements document to look for any fundamental business, product, or design concepts that have not yet been addressed.</p>
-          </li>
-        </ol>
-      </div><!-- end next steps section -->
-    </div><!-- end content container -->
-    <div>
-      <!-- open project nav links -->
-      <nav>
-        <ol>
-          <li><a href="#hero">Top</a></li>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#ia">Information Architecture</a></li>
-          <li><a href="#ideation">Ideation</a></li>
-          <li><a href="#testing">Testing</a></li>
-          <li><a href="#revisions">Revisions</a></li>
-          <li><a href="#prototype">Prototype</a></li>
-          <li><a href="#next_steps">Next Steps</a></li>
-        </ol>
-      </nav>
-    </div><!-- end project nav links -->
-  </main>
-  <footer id="contact">
-    <div>
-      <!-- open footer div -->
-      <h2>Get in touch</h2>
-      <p>
-        For more information about my work, project inquiries, or just to get in touch, send me an email or reach out via social media. You can reach me by phone or text at <a href="tel:+12404813199">+1 (240) 481-3199</a> or find me on Skype as <a
-          href="Skype:greg.jukes">@greg.jukes</a>.
-      </p>
-      <div>
-        <!-- open email button or link -->
-        <a href="mailto:gjukes@gmail.com" class="button contact">Send me an email</a>
-      </div><!-- end email button or link -->
-      <div>
-        <!-- open social media buttons -->
-        <ul>
-          <li><a href="https://www.linkedin.com/in/greg-jukes-2060171b4" target="_blank">
-              <svg height="500" id="svg2" version="1.1" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
-                <defs id="defs4" />
-                <g id="layer1" transform="translate(0,-552.36218)">
-                  <rect height="500" id="rect2990-1" rx="250" ry="250" style="fill:#0077b5;fill-opacity:1;stroke:none" width="500" x="0" y="552.36218" />
-                  <g id="layer1-9" transform="translate(-549.00515,80.294372)" />
-                  <g id="layer1-6" transform="translate(-575.71429,39.999999)" />
-                  <g id="layer1-92" transform="matrix(0.99533037,0,0,0.99716768,619.96997,-73.128637)">
-                    <g id="layer1-9-7" transform="translate(-1068,-236)" />
-                  </g>
-                  <path
-                    d="M 128.76316,642.36224 C 107.34952,642.36224 90,659.75123 90,681.20435 c 0,21.45322 17.34952,38.8421 38.76316,38.8421 21.41364,0 38.76316,-17.38888 38.76316,-38.8421 0,-21.45312 -17.34952,-38.84211 -38.76316,-38.84211 z m 203.02631,101.13158 0,0.0263 c -4.37833,-0.0156 -8.62646,0.15968 -14.18421,0.44737 -12.18891,0.63097 -40.6558,13.83786 -51.07894,34.92106 0,-9.15329 0.10526,-17.55993 0.10526,-30.10527 -12.4852,0 -28.82418,0.0789 -62.94737,0.0789 0,38.30812 -0.42105,173.97085 -0.42105,213.5 l 66.07895,0 c 0,-23.44978 0.31578,-82.35285 0.31578,-119.34211 0,-12.42047 7.50808,-41.10526 38.31579,-41.10526 27.97383,0 35.81579,23.57737 35.81579,41.10526 0,38.52259 -0.28947,92.97632 -0.28947,119.34211 l 66.47368,0 c 0,-25.77235 0.23633,-95.77893 -0.55263,-139.94737 -0.95794,-53.62831 -33.53337,-76.50988 -62.76316,-78.31579 -6.01505,-0.37149 -10.49009,-0.5893 -14.86842,-0.60526 z m -236.210523,6.21053 0,212.55263 66.263163,0 0,-212.55263 -66.263163,0 z"
-                    id="rect2989-1-7" style="fill:#ffffff;fill-opacity:1;stroke:none" />
-                </g>
-              </svg>
-            </a></li>
-          <li><a href="https://twitter.com/gregjukes" target="_blank">
-              <svg height="67px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewbox="0 0 67 67" width="67px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path
-                  d="M38.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.567  C20.775,43.256,20,43.341,20,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.674,5.657-5,6.978-8.221c0.713-1.715,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C40.766,21.902,39.131,21.944,38.167,22.283z M34,64C17.432,64,4,50.568,4,34  C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z"
-                  style="fill-rule:evenodd;clip-rule:evenodd;fill:#598DCA;" />
-              </svg>
-            </a></li>
-        </ul>
-      </div><!-- end social media buttons -->
-      <div>
-        <p>copyright Greg Jukes 2021</p>
+            <!-- open row with two columns for revisions -->
+            <div>
+              <!-- open revisions copy column -->
+              <p>Guiding users through creating a tour</p>
+              <p>
+                The overarching issue with the initial design (top) was that
+                users felt unsure about what to do, so the new design (bottom)
+                integrates more descriptive text throughout each screen to guide
+                users in making a tour. By making the language more specific and
+                detailed, I hope to help users past the learning curve of their
+                first experience. Several testers indicated that the creation
+                was fun and made sense once they’d figured it out. Hopefully
+                these redesigns will allow them to figure it out with more
+                certainty on first glance.
+              </p>
+              <p>Key changes include:</p>
+              <ul>
+                <li>
+                  <p>
+                    Breaking the first create page into two parts: one page for
+                    naming the tour followed by a building page
+                  </p>
+                </li>
+                <li>
+                  <p>Changing wording on key buttons to reduce confusion</p>
+                </li>
+                <li>
+                  <p>More descriptions on each page, button, and input field</p>
+                </li>
+              </ul>
+            </div>
+            <!-- end revisions copy column -->
+            <div>
+              <!-- open revisions image column -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/create@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/create@2x.png"
+                  alt="Top: original sequence of create pages, Bottom: revised sequence of create pages after testing"
+                />
+              </picture>
+            </div>
+            <!-- end revisions image column -->
+          </div>
+          <!-- end row with two columns for revisions -->
+        </div>
+        <!-- end revisions section -->
+        <div id="prototype">
+          <!-- open prototype section -->
+          <h2>Prototype</h2>
+          <a
+            href="https://xd.adobe.com/view/8c592e5e-4aa9-42a8-a69b-22404cf6403e-d90a/"
+            >Explore the prototype</a
+          >
+        </div>
+        <!-- end prototype section -->
+        <div id="next_steps">
+          <!-- open next steps section -->
+          <h2>Next Steps</h2>
+          <p>Memory Tour’s next steps for iteration include:</p>
+          <ol>
+            <li>
+              <p>
+                Testing the current prototype to see if the changes made to the
+                create sequence have made it easier for users experiencing the
+                app for the first time to make a tour and if any new issues have
+                been created.
+              </p>
+            </li>
+            <li>
+              <p>
+                Turning low-fi wireframes of the actual gameplay sequence for
+                playing a tour into a mid- or hi-fi prototype to test this
+                aspect of the app with users.
+              </p>
+            </li>
+            <li>
+              <p>
+                Reviewing the style guide and design language system to make
+                sure they accurately describe the current look and feel of the
+                app.
+              </p>
+            </li>
+            <li>
+              <p>
+                Consulting the design brief and business requirements document
+                to look for any fundamental business, product, or design
+                concepts that have not yet been addressed.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <!-- end next steps section -->
       </div>
-    </div><!-- end footer div -->
-  </footer>
-</body>
-
+      <!-- end content container -->
+      <div>
+        <!-- open project nav links -->
+        <nav>
+          <ol>
+            <li><a href="#hero">Top</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#ia">Information Architecture</a></li>
+            <li><a href="#ideation">Ideation</a></li>
+            <li><a href="#testing">Testing</a></li>
+            <li><a href="#revisions">Revisions</a></li>
+            <li><a href="#prototype">Prototype</a></li>
+            <li><a href="#next_steps">Next Steps</a></li>
+          </ol>
+        </nav>
+      </div>
+      <!-- end project nav links -->
+    </main>
+    <footer id="contact">
+      <div>
+        <!-- open footer div -->
+        <h2>Get in touch</h2>
+        <p>
+          For more information about my work, project inquiries, or just to get
+          in touch, send me an email or reach out via social media. You can
+          reach me by phone or text at
+          <a href="tel:+12404813199">+1 (240) 481-3199</a> or find me on Skype
+          as <a href="Skype:greg.jukes">@greg.jukes</a>.
+        </p>
+        <div>
+          <!-- open email button or link -->
+          <a href="mailto:gjukes@gmail.com" class="button contact"
+            >Send me an email</a
+          >
+        </div>
+        <!-- end email button or link -->
+        <div>
+          <!-- open social media buttons -->
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/greg-jukes-2060171b4"
+                target="_blank"
+              >
+                <svg
+                  height="500"
+                  id="svg2"
+                  version="1.1"
+                  width="500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:cc="http://creativecommons.org/ns#"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                >
+                  <defs id="defs4" />
+                  <g id="layer1" transform="translate(0,-552.36218)">
+                    <rect
+                      height="500"
+                      id="rect2990-1"
+                      rx="250"
+                      ry="250"
+                      style="fill: #0077b5; fill-opacity: 1; stroke: none"
+                      width="500"
+                      x="0"
+                      y="552.36218"
+                    />
+                    <g
+                      id="layer1-9"
+                      transform="translate(-549.00515,80.294372)"
+                    />
+                    <g
+                      id="layer1-6"
+                      transform="translate(-575.71429,39.999999)"
+                    />
+                    <g
+                      id="layer1-92"
+                      transform="matrix(0.99533037,0,0,0.99716768,619.96997,-73.128637)"
+                    >
+                      <g id="layer1-9-7" transform="translate(-1068,-236)" />
+                    </g>
+                    <path
+                      d="M 128.76316,642.36224 C 107.34952,642.36224 90,659.75123 90,681.20435 c 0,21.45322 17.34952,38.8421 38.76316,38.8421 21.41364,0 38.76316,-17.38888 38.76316,-38.8421 0,-21.45312 -17.34952,-38.84211 -38.76316,-38.84211 z m 203.02631,101.13158 0,0.0263 c -4.37833,-0.0156 -8.62646,0.15968 -14.18421,0.44737 -12.18891,0.63097 -40.6558,13.83786 -51.07894,34.92106 0,-9.15329 0.10526,-17.55993 0.10526,-30.10527 -12.4852,0 -28.82418,0.0789 -62.94737,0.0789 0,38.30812 -0.42105,173.97085 -0.42105,213.5 l 66.07895,0 c 0,-23.44978 0.31578,-82.35285 0.31578,-119.34211 0,-12.42047 7.50808,-41.10526 38.31579,-41.10526 27.97383,0 35.81579,23.57737 35.81579,41.10526 0,38.52259 -0.28947,92.97632 -0.28947,119.34211 l 66.47368,0 c 0,-25.77235 0.23633,-95.77893 -0.55263,-139.94737 -0.95794,-53.62831 -33.53337,-76.50988 -62.76316,-78.31579 -6.01505,-0.37149 -10.49009,-0.5893 -14.86842,-0.60526 z m -236.210523,6.21053 0,212.55263 66.263163,0 0,-212.55263 -66.263163,0 z"
+                      id="rect2989-1-7"
+                      style="fill: #ffffff; fill-opacity: 1; stroke: none"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/gregjukes" target="_blank">
+                <svg
+                  height="67px"
+                  id="Layer_1"
+                  style="enable-background: new 0 0 67 67"
+                  version="1.1"
+                  viewbox="0 0 67 67"
+                  width="67px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <path
+                    d="M38.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.567  C20.775,43.256,20,43.341,20,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.674,5.657-5,6.978-8.221c0.713-1.715,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C40.766,21.902,39.131,21.944,38.167,22.283z M34,64C17.432,64,4,50.568,4,34  C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z"
+                    style="
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #598dca;
+                    "
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- end social media buttons -->
+        <div>
+          <p>copyright Greg Jukes 2021</p>
+        </div>
+      </div>
+      <!-- end footer div -->
+    </footer>
+  </body>
 </html>
