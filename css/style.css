@@ -25,10 +25,14 @@ h1,
 h2,
 h3,
 h4 {
+  color: #005792;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   line-height: 1.4;
 }
 
 h1 {
+  color: #13334c;
   font-size: 2em;
   font-weight: 700;
 }
