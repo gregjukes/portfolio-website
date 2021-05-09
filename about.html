@@ -25,7 +25,7 @@
 
   <body id="about">
     <header>
-      <div>
+      <div class="container">
         <!-- open header div -->
         <a href="index.html">Greg Jukes</a>
         <!-- Name as hyperlink instead of logo image -->
@@ -41,209 +41,219 @@
     </header>
     <main>
       <div id="hero">
-        <!-- open page title block -->
-        <h1>About</h1>
+        <div class="container">
+          <!-- open page title block -->
+          <h1>About</h1>
+        </div>
+        <!-- end hero container -->
       </div>
+      <!-- end hero -->
       <!-- end page title block -->
       <div id="content">
-        <!-- open content container -->
-        <picture>
-          <source
-            srcset="img/about/square_headshot@1x.jpeg"
-            media="(max-width:767px)"
-          />
-          <img
-            src="img/about/headshot@2x.jpeg"
-            alt="Greg Jukes headshot photo credit: Adam Detour"
-          />
-        </picture>
-        <div>
+        <div class="container">
+          <!-- open content container -->
+          <picture>
+            <source
+              srcset="img/about/square_headshot@1x.jpeg"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/about/headshot@2x.jpeg"
+              alt="Greg Jukes headshot photo credit: Adam Detour"
+            />
+          </picture>
+          <div class="row">
+            <!-- open row that holds two columns -->
+            <div>
+              <!-- open about copy column -->
+              <h2>My Story</h2>
+              <p>
+                I started my career as a performing artist, creating shows in
+                which instrumental musicians are also actors and dancers. When I
+                decided to develop a new skillset outside the performing arts,
+                user experience design was a natural choice because the
+                principles of human centered design that drive the field are so
+                similar to my process crafting a show, thinking about the
+                emotional journey I offer audiences.
+              </p>
+              <p>
+                My conservatory training is as a classical music percussionist
+                and one of my favorite things about my instrument is that it’s
+                made for collaboration. Percussion encompasses anything you
+                strike or shake to make a sound from maracas to marimbas, drums,
+                cymbals, bells, hundreds of instruments from all over the world.
+                As a percussionist, you have to be conversant in many styles of
+                music and you need to be highly adaptable whether that means
+                responding to the musicians you’re playing with on stage or
+                figuring out how to play a different instrument with each or
+                your limbs. This meshes with my passion for UX design in that
+                both fields are about solving interesting problems to create
+                great experiences for people!
+              </p>
+              <p>
+                I am based in Somerville, Massachusetts which is just north of
+                Boston in the USA. My performing work has taken me all over
+                North America and I have been doing remote work internationally
+                for years with a studio of online drum students in Saudi Arabia.
+              </p>
+              <a
+                href="files/greg_jukes_resume.pdf"
+                class="button"
+                target="_blank"
+                >View my resume</a
+              >
+            </div>
+            <!-- end about copy column -->
+            <div>
+              <!-- open skills and tools column -->
+              <h2>Skills & Tools</h2>
+              <div class="row">
+                <!-- open skills -->
+                <h3>Relevant Skils</h3>
+                <div>
+                  <!-- open UX Design skills -->
+                  <h4>UX Design</h4>
+                  <ul>
+                    <li>
+                      <p>Research</p>
+                    </li>
+                    <li>
+                      <p>User personas</p>
+                    </li>
+                    <li>
+                      <p>Wireframing</p>
+                    </li>
+                    <li>
+                      <p>Collaborative design</p>
+                    </li>
+                    <li>
+                      <p>Prototyping</p>
+                    </li>
+                    <li>
+                      <p>User testing</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end UX Design skills -->
+                <div>
+                  <!-- open Business skills -->
+                  <h4>Business</h4>
+                  <ul>
+                    <li>
+                      <p>Nonprofit management</p>
+                    </li>
+                    <li>
+                      <p>Grant writing</p>
+                    </li>
+                    <li>
+                      <p>Accounting and taxes</p>
+                    </li>
+                    <li>
+                      <p>Project management</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end Business skills -->
+                <div>
+                  <!-- open Production skills -->
+                  <h4>Production</h4>
+                  <ul>
+                    <li>
+                      <p>Live and virtual performance</p>
+                    </li>
+                    <li>
+                      <p>Audio/Video recording and editing</p>
+                    </li>
+                    <li>
+                      <p>Scriptwriting</p>
+                    </li>
+                    <li>
+                      <p>Sound design</p>
+                    </li>
+                    <li>
+                      <p>Directing</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end Production skills -->
+              </div>
+              <!-- end skills -->
+              <div class="row">
+                <!-- open tools -->
+                <h3>Tools I Use</h3>
+                <div>
+                  <!-- open UX Design tools -->
+                  <h4>UX Design</h4>
+                  <ul>
+                    <li>
+                      <p>Adobe XD</p>
+                    </li>
+                    <li>
+                      <p>Figma</p>
+                    </li>
+                    <li>
+                      <p>Balsamiq</p>
+                    </li>
+                    <li>
+                      <p>Usability Hub</p>
+                    </li>
+                    <li>
+                      <p>Paper, Pen, and Pencil</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end UX Design tools -->
+                <div>
+                  <!-- open Business tools -->
+                  <h4>Business</h4>
+                  <ul>
+                    <li>
+                      <p>Trello</p>
+                    </li>
+                    <li>
+                      <p>Slack</p>
+                    </li>
+                    <li>
+                      <p>Google Workspace</p>
+                    </li>
+                    <li>
+                      <p>Zoom</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end Business tools -->
+                <div>
+                  <!-- open Production tools -->
+                  <h4>Production</h4>
+                  <ul>
+                    <li>
+                      <p>Final Cut Pro X</p>
+                    </li>
+                    <li>
+                      <p>Logic</p>
+                    </li>
+                    <li>
+                      <p>iMovie</p>
+                    </li>
+                    <li>
+                      <p>GarageBand</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end Production tools -->
+              </div>
+              <!-- end tools -->
+            </div>
+            <!-- end skills and tools column -->
+          </div>
           <!-- open row that holds two columns -->
-          <div>
-            <!-- open about copy column -->
-            <h2>My Story</h2>
-            <p>
-              I started my career as a performing artist, creating shows in
-              which instrumental musicians are also actors and dancers. When I
-              decided to develop a new skillset outside the performing arts,
-              user experience design was a natural choice because the principles
-              of human centered design that drive the field are so similar to my
-              process crafting a show, thinking about the emotional journey I
-              offer audiences.
-            </p>
-            <p>
-              My conservatory training is as a classical music percussionist and
-              one of my favorite things about my instrument is that it’s made
-              for collaboration. Percussion encompasses anything you strike or
-              shake to make a sound from maracas to marimbas, drums, cymbals,
-              bells, hundreds of instruments from all over the world. As a
-              percussionist, you have to be conversant in many styles of music
-              and you need to be highly adaptable whether that means responding
-              to the musicians you’re playing with on stage or figuring out how
-              to play a different instrument with each or your limbs. This
-              meshes with my passion for UX design in that both fields are about
-              solving interesting problems to create great experiences for
-              people!
-            </p>
-            <p>
-              I am based in Somerville, Massachusetts which is just north of
-              Boston in the USA. My performing work has taken me all over North
-              America and I have been doing remote work internationally for
-              years with a studio of online drum students in Saudi Arabia.
-            </p>
-            <a href="files/greg_jukes_resume.pdf" class="button" target="_blank"
-              >View my resume</a
-            >
-          </div>
-          <!-- end about copy column -->
-          <div>
-            <!-- open skills and tools column -->
-            <h2>Skills & Tools</h2>
-            <div>
-              <!-- open skills -->
-              <h3>Relevant Skils</h3>
-              <div>
-                <!-- open UX Design skills -->
-                <h4>UX Design</h4>
-                <ul>
-                  <li>
-                    <p>Research</p>
-                  </li>
-                  <li>
-                    <p>User personas</p>
-                  </li>
-                  <li>
-                    <p>Wireframing</p>
-                  </li>
-                  <li>
-                    <p>Collaborative design</p>
-                  </li>
-                  <li>
-                    <p>Prototyping</p>
-                  </li>
-                  <li>
-                    <p>User testing</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end UX Design skills -->
-              <div>
-                <!-- open Business skills -->
-                <h4>Business</h4>
-                <ul>
-                  <li>
-                    <p>Nonprofit management</p>
-                  </li>
-                  <li>
-                    <p>Grant writing</p>
-                  </li>
-                  <li>
-                    <p>Accounting and taxes</p>
-                  </li>
-                  <li>
-                    <p>Project management</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end Business skills -->
-              <div>
-                <!-- open Production skills -->
-                <h4>Production</h4>
-                <ul>
-                  <li>
-                    <p>Live and virtual performance</p>
-                  </li>
-                  <li>
-                    <p>Audio/Video recording and editing</p>
-                  </li>
-                  <li>
-                    <p>Scriptwriting</p>
-                  </li>
-                  <li>
-                    <p>Sound design</p>
-                  </li>
-                  <li>
-                    <p>Directing</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end Production skills -->
-            </div>
-            <!-- end skills -->
-            <div>
-              <!-- open tools -->
-              <h3>Tools I Use</h3>
-              <div>
-                <!-- open UX Design tools -->
-                <h4>UX Design</h4>
-                <ul>
-                  <li>
-                    <p>Adobe XD</p>
-                  </li>
-                  <li>
-                    <p>Figma</p>
-                  </li>
-                  <li>
-                    <p>Balsamiq</p>
-                  </li>
-                  <li>
-                    <p>Usability Hub</p>
-                  </li>
-                  <li>
-                    <p>Paper, Pen, and Pencil</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end UX Design tools -->
-              <div>
-                <!-- open Business tools -->
-                <h4>Business</h4>
-                <ul>
-                  <li>
-                    <p>Trello</p>
-                  </li>
-                  <li>
-                    <p>Slack</p>
-                  </li>
-                  <li>
-                    <p>Google Workspace</p>
-                  </li>
-                  <li>
-                    <p>Zoom</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end Business tools -->
-              <div>
-                <!-- open Production tools -->
-                <h4>Production</h4>
-                <ul>
-                  <li>
-                    <p>Final Cut Pro X</p>
-                  </li>
-                  <li>
-                    <p>Logic</p>
-                  </li>
-                  <li>
-                    <p>iMovie</p>
-                  </li>
-                  <li>
-                    <p>GarageBand</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end Production tools -->
-            </div>
-            <!-- end tools -->
-          </div>
-          <!-- end skills and tools column -->
         </div>
-        <!-- open row that holds two columns -->
+        <!-- end work container -->
       </div>
-      <!-- end content container -->
+      <!-- end work -->
     </main>
     <footer id="contact">
-      <div>
+      <div class="container">
         <!-- open footer div -->
         <h2>Get in touch</h2>
         <p>

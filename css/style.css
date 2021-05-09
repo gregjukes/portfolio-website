@@ -130,3 +130,114 @@ img {
   color: #e63f0b;
   border: 2px solid #e63f0b;
 }
+.container {
+  padding: 0 16px;
+}
+.logo:active {
+  color: #005792;
+  font-weight: 900;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-variant: none;
+  color: #005792;
+  text-transform: none;
+}
+
+nav > ul > li > a:visited {
+  color: #005792;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  color: #13334c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav > ul > li > a:active {
+  color: #13334c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+.portfolio nav > ol {
+  border-top: 2px solid #005792;
+  border-bottom: 2px solid #005792;
+  margin: 1em 0;
+  padding: 1.5em 0;
+  text-align: center;
+}
+
+.portfolio nav > ol > li {
+  display: inline-block;
+}
+
+.portfolio nav > ol > li > a {
+  padding: 2em 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #005792;
+  text-transform: none;
+}
+
+.portfolio nav > ol > li > a:visited {
+  color: #005792;
+}
+
+.portfolio nav > ol > li > a:hover,
+.portfolio nav > ol > li > a:focus {
+  color: #13334c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.portfolio nav > ol > li > a:active {
+  color: #13334c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#hero {
+  background-color: #f7f7eb;
+  display: inline-block;
+  padding: 0.5em 0;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.portfolio h2 {
+  border-top: 2px solid #005792;
+}
+
+#copyright {
+  color: #13334c;
+  font-size: 0.75em;
+  text-align: center;
+}
