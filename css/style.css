@@ -8,6 +8,9 @@ Orange: #fdf500; Active: #e63fob
 Parchment: #f7f7eb;
 White: #ffffff;
 */
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -135,6 +138,20 @@ header {
   position: fixed;
   text-align: center;
   width: 100%;
+}
+
+#social_icons {
+  width: 20%;
+  min-width: 44px;
+  max-width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+#social_icons ul {
+  list-style-type: none;
+  margin: 0.5em 0;
+  padding: 0;
 }
 
 .container {
