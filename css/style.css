@@ -134,6 +134,27 @@ img {
   padding: 0 16px;
 }
 .logo:active {
+#logo {
+  max-width: 250px;
+  color: #13334c;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: none;
+}
+
+#logo:visited {
+  color: #13334c;
+}
+
+#logo:hover,
+#logo:focus {
+  color: #005792;
+  text-decoration: none;
+}
+
+#logo:active {
   color: #005792;
   font-weight: 900;
 }
