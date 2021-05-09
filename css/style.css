@@ -140,6 +140,10 @@ header {
   width: 100%;
 }
 
+main {
+  padding-top: 117px;
+}
+
 #social_icons {
   width: 20%;
   min-width: 44px;
