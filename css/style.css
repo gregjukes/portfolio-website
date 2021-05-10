@@ -331,6 +331,57 @@ nav {
   font-size: 0.75em;
   text-align: center;
 }
+
+/* ==============================
+CSS animation
+================================= */
+
+@keyframes trebel-flip {
+  0% {
+    transform: rotateZ(90deg);
+    fill: #000000;
+  }
+  40% {
+    transform: rotateZ(0deg);
+    fill: #000000;
+  }
+  80% {
+    transform: rotateZ(0deg);
+    fill: maroon;
+  }
+  100% {
+    transform: rotateZ(0deg);
+    fill: maroon;
+  }
+}
+
+.trebel-clef {
+  animation: 5s trebel-flip infinite alternate ease;
+}
+
+@keyframes bass-spin {
+  0% {
+    transform: rotateX(90deg);
+    fill: #000000;
+  }
+  40% {
+    transform: rotateX(90deg);
+    fill: #000000;
+  }
+  80% {
+    transform: rotateX(0deg);
+    fill: maroon;
+  }
+  100% {
+    transform: rotateX(0deg);
+    fill: maroon;
+  }
+}
+
+.bass-clef {
+  animation: 5s bass-spin infinite alternate ease;
+}
+
 /* ==============================
 Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
 ================================= */
