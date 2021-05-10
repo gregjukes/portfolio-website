@@ -62,7 +62,7 @@
               alt="Memory Tour a collaborative scavenger hunt web application"
             />
           </picture>
-          <div id="overview">
+          <div id="overview" class="section">
             <!--open overview-->
             <h2>Overview</h2>
             <p>
@@ -76,7 +76,7 @@
             <p>Role: UX Designer</p>
           </div>
           <!--end overview-->
-          <div id="research">
+          <div id="research" class="section">
             <!-- open research section -->
             <h2>Research</h2>
             <div class="row">
@@ -112,19 +112,19 @@
                 </picture>
               </div>
               <!-- end interview notes image column -->
-              <div class="row">
-                <!-- open personas copy column -->
-                <!-- this should go under research copy, next to the image on wider screens, but under the image on smaller screens-->
-                <h3>Working with personas</h3>
-                <p>
-                  Journey Maps outline scenarios that help answer the question:
-                  “Why will a user like Esmeralda want to create an event with
-                  Memory Tour?”
-                </p>
-              </div>
-              <!-- end personas copy column -->
             </div>
             <!-- end row that holds two columns -->
+            <div>
+              <!-- open personas copy column -->
+              <!-- this should go under research copy, next to the image on wider screens, but under the image on smaller screens-->
+              <h3>Working with personas</h3>
+              <p>
+                Journey Maps outline scenarios that help answer the question:
+                “Why will a user like Esmeralda want to create an event with
+                Memory Tour?”
+              </p>
+            </div>
+            <!-- end personas copy column -->
             <div>
               <!-- open journey map container -->
               <picture>
@@ -139,84 +139,85 @@
               </picture>
             </div>
             <!-- end journey map container -->
-            <div id="ia">
-              <!-- open IA section -->
-              <h3>Translating users’ need to pages of the application</h3>
-              <div>
-                <!-- open sitemap copy -->
-                <p>
-                  Interviews along and user personas and flows identified three
-                  primary uses of the app:
-                </p>
-                <ol>
-                  <li>
-                    <p>Creating scavenger hunts for friends</p>
-                  </li>
-                  <li>
-                    <p>Playing scavenger hunts</p>
-                  </li>
-                  <li>
-                    <p>Sharing memories from a group activity</p>
-                  </li>
-                </ol>
-              </div>
-              <!-- end sitemap copy -->
-              <div>
-                <!-- open sitemap image container -->
-                <picture>
-                  <source
-                    srcset="img/memory_tour/sitemaps@1x.png"
-                    media="(max-width:767px)"
-                  />
-                  <img
-                    src="img/memory_tour/sitemaps@2x.png"
-                    alt="First and second iterations of the Memory Tour sitemap"
-                  />
-                </picture>
-              </div>
-              <!-- end sitemap image container -->
-              <div>
-                <!-- open cardsort copy -->
-                <p>
-                  Data from a card sort using Optimal Workshop allowed me to
-                  refine the language and categories that structure the site
-                  based on the three primary uses:
-                </p>
-                <ol>
-                  <li>
-                    <p>Create is where users build scavenger hunts</p>
-                  </li>
-                  <li>
-                    <p>Tours are the games themselves</p>
-                  </li>
-                  <li>
-                    <p>
-                      Profile contains user-specific content including memories,
-                      tours created/in progress, and tours played 
-                    </p>
-                  </li>
-                </ol>
-              </div>
-              <!-- end cardsort copy -->
-              <div>
-                <!-- open cardsort image container -->
-                <picture>
-                  <source
-                    srcset="img/memory_tour/card_sort_data@1x.png"
-                    media="(max-width:767px)"
-                  />
-                  <img
-                    src="img/memory_tour/card_sort_data@2x.png"
-                    alt="Card sort data visualized as 3-D groupings with labels for Tours, Create, Profile, and Info and a dendogram showing where card sort results converge"
-                  />
-                </picture>
-              </div>
-              <!-- end cardsort image container -->
-            </div>
-            <!-- end IA section -->
           </div>
           <!-- end research section -->
-          <div id="ideation">
+          <div id="ia" class="section">
+            <!-- open IA section -->
+            <h3>Information Architecture</h3>
+            <div>
+              <!-- open sitemap copy -->
+              <p>Translating users’ need to pages of the application</p>
+              <p>
+                Interviews along and user personas and flows identified three
+                primary uses of the app:
+              </p>
+              <ol>
+                <li>
+                  <p>Creating scavenger hunts for friends</p>
+                </li>
+                <li>
+                  <p>Playing scavenger hunts</p>
+                </li>
+                <li>
+                  <p>Sharing memories from a group activity</p>
+                </li>
+              </ol>
+            </div>
+            <!-- end sitemap copy -->
+            <div>
+              <!-- open sitemap image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/sitemaps@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/sitemaps@2x.png"
+                  alt="First and second iterations of the Memory Tour sitemap"
+                />
+              </picture>
+            </div>
+            <!-- end sitemap image container -->
+            <div>
+              <!-- open cardsort copy -->
+              <p>
+                Data from a card sort using Optimal Workshop allowed me to
+                refine the language and categories that structure the site based
+                on the three primary uses:
+              </p>
+              <ol>
+                <li>
+                  <p>Create is where users build scavenger hunts</p>
+                </li>
+                <li>
+                  <p>Tours are the games themselves</p>
+                </li>
+                <li>
+                  <p>
+                    Profile contains user-specific content including memories,
+                    tours created/in progress, and tours played 
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <!-- end cardsort copy -->
+            <div>
+              <!-- open cardsort image container -->
+              <picture>
+                <source
+                  srcset="img/memory_tour/card_sort_data@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/memory_tour/card_sort_data@2x.png"
+                  alt="Card sort data visualized as 3-D groupings with labels for Tours, Create, Profile, and Info and a dendogram showing where card sort results converge"
+                />
+              </picture>
+            </div>
+            <!-- end cardsort image container -->
+          </div>
+          <!-- end IA section -->
+          <div id="ideation" class="section">
             <!-- open ideation section -->
             <h2>Ideation</h2>
             <div>
@@ -316,7 +317,7 @@
             <!-- end space for change section -->
           </div>
           <!-- end ideation section -->
-          <div id="testing">
+          <div id="testing" class="section">
             <!-- open testing section -->
             <h2>Testing</h2>
             <div>
@@ -458,7 +459,7 @@
             <!-- end results copy container -->
           </div>
           <!-- end testing section -->
-          <div id="revisions">
+          <div id="revisions" class="section">
             <!-- open revisions section -->
             <h2>Revisions</h2>
             <div class="row">
@@ -514,7 +515,7 @@
             <!-- end row with two columns for revisions -->
           </div>
           <!-- end revisions section -->
-          <div id="prototype">
+          <div id="prototype" class="section">
             <!-- open prototype section -->
             <h2>Prototype</h2>
             <a
@@ -524,7 +525,7 @@
             >
           </div>
           <!-- end prototype section -->
-          <div id="next_steps">
+          <div id="next_steps" class="section">
             <!-- open next steps section -->
             <h2>Next Steps</h2>
             <p>Memory Tour’s next steps for iteration include:</p>
