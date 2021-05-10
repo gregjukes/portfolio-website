@@ -155,17 +155,26 @@ footer {
 }
 
 #social_icons {
-  width: 20%;
-  min-width: 44px;
-  max-width: 100px;
-  display: inline-block;
+  width: 100%;
   text-align: center;
 }
 
+#social_icons img {
+  width: 44px;
+}
+
 #social_icons ul {
-  list-style-type: none;
-  margin: 0.5em 0;
   padding: 0;
+}
+
+#social_icons li {
+  display: inline-block;
+}
+
+#social_icons span {
+  display: block;
+  padding: 0 8px;
+  font-size: 0.8em;
 }
 
 .container {
