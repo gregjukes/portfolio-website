@@ -187,7 +187,14 @@ footer {
   padding: 0 16px;
 }
 
-#work .row {
+.feature {
+  width: 100%;
+  text-align: center;
+}
+
+#work .row,
+#my_story,
+.section {
   border-bottom: 2px solid #13334c;
   padding-bottom: 24px;
   margin: 24px 0; /* 24px top and bottom, 0 left and right */
