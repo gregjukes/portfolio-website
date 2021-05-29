@@ -28,9 +28,29 @@
     <header>
       <div class="container">
         <!-- open header div -->
+        <div class="navtoggle" id="myNavtoggle">
+          <!-- open mobile menu toggle div -->
+          <a href="index.html" id="logo">Greg Jukes</a>
+          <!-- Name as hyperlink instead of logo image -->
+          <nav>
+            <ul>
               <li class="brackets"><a href="index.html">Work</a></li>
               <li class="brackets"><a href="about.html">About</a></li>
               <li class="brackets">
+                <a href="#contact" onclick="menuToggle()">Contact</a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- end mobile menu toggle div -->
       </div>
       <!-- end header div -->
     </header>
