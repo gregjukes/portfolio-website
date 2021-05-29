@@ -141,20 +141,13 @@ svg {
 header {
   background-color: #f7f7eb;
   box-shadow: 0px 4px 4px 0px rgba(50, 50, 50, 0.75);
-  padding: 8px 0;
+  padding: 7px 0;
   position: fixed;
-  text-align: center;
   width: 100%;
 }
 
-header nav {
-  font-size: 1.2em;
-  display: flex;
-  justify-content: flex-end;
-}
-
 main {
-  padding-top: 117px;
+  padding-top: 60px;
 }
 
 footer {
@@ -230,19 +223,10 @@ footer {
   font-weight: 900;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 nav > ul {
   list-style-type: none;
-  margin: 0.5em 0;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -435,6 +419,21 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+  nav > ul {
+    margin: 0.5em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   /* ==============================
 Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
@@ -502,6 +501,8 @@ End nav brackets animation
   }
 
   #logo {
+    max-width: 250px;
+    width: 100%;
     display: inline-block;
   }
 
