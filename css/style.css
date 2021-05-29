@@ -387,37 +387,6 @@ CSS animation
 }
 
 /* ==============================
-Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
-================================= */
-nav.brackets a:before,
-nav.brackets a:after {
-  display: inline-block;
-  position: flex;
-  opacity: 0;
-  font-size: 1.2em;
-  top: 0px;
-  transition: all 0.5s;
-}
-
-nav.brackets a:before {
-  content: "(";
-  left: 0px;
-  transform: translateX(10px);
-}
-
-nav.brackets a:after {
-  content: ")";
-  right: 0px;
-  transform: translateX(-10px);
-}
-
-nav.brackets a:hover:before,
-nav.brackets a:hover:after {
-  opacity: 1;
-  transform: translateX(0px);
-}
-
-/* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
@@ -430,6 +399,41 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+
+
+  /* ==============================
+Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
+================================= */
+  nav > ul > li.brackets a:before,
+  nav > ul > li.brackets a:after {
+    display: inline-block;
+    position: flex;
+    opacity: 0;
+    font-size: 1.2em;
+    top: 0px;
+    transition: all 0.5s;
+  }
+
+  nav > ul > li.brackets a:before {
+    content: "(";
+    left: 0px;
+    transform: translateX(10px);
+  }
+
+  nav > ul > li.brackets a:after {
+    content: ")";
+    right: 0px;
+    transform: translateX(-10px);
+  }
+
+  nav > ul > li.brackets a:hover:before,
+  nav > ul > li.brackets a:hover:after {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  /* ==============================
+End nav brackets animation
+================================= */
 
   main {
     padding-top: 69px;
