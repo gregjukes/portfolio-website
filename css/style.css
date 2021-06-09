@@ -77,6 +77,12 @@ a:active {
 img,
 svg {
   width: 100%;
+  height: auto;
+}
+
+svg {
+  display: flex;
+  justify-content: space-around;
 }
 
 .button {
@@ -359,50 +365,90 @@ nav > ul > li > a:active {
 CSS animation
 ================================= */
 
-@keyframes trebel-flip {
+@keyframes the-move {
   0% {
-    transform: rotateZ(90deg);
-    fill: #000000;
+    transform: translate(-20.5%, 10%) rotate(-4deg);
   }
   40% {
-    transform: rotateZ(0deg);
-    fill: #000000;
+    transform: translate(-20.5%, 10%) rotate(-4deg);
   }
   80% {
-    transform: rotateZ(0deg);
-    fill: maroon;
+    transform: none;
+    fill: #002b54;
   }
   100% {
-    transform: rotateZ(0deg);
-    fill: maroon;
+    transform: none;
+    fill: #49c7ee;
   }
 }
 
-.trebel-clef {
-  animation: 5s trebel-flip infinite alternate ease;
+.themove {
+  animation: 5s the-move infinite alternate ease;
 }
 
-@keyframes bass-spin {
+@keyframes wall-move {
   0% {
-    transform: rotateX(90deg);
-    fill: #000000;
+    transform: translate(-42.5%, 38%) rotate(-26deg);
   }
   40% {
-    transform: rotateX(90deg);
-    fill: #000000;
+    transform: translate(-42.5%, 38%) rotate(-26deg);
   }
   80% {
-    transform: rotateX(0deg);
-    fill: maroon;
+    transform: none;
+    fill: #002b54;
   }
   100% {
-    transform: rotateX(0deg);
-    fill: maroon;
+    transform: none;
+    fill: #49c7ee;
   }
 }
 
-.bass-clef {
-  animation: 5s bass-spin infinite alternate ease;
+.wallmove {
+  animation: 5s wall-move infinite alternate ease;
+}
+
+@keyframes box-move {
+  0% {
+    transform: translate(-13%, 18%) rotate(-16deg);
+  }
+  40% {
+    transform: translate(-13%, 18%) rotate(-16deg);
+  }
+  80% {
+    transform: none;
+    fill: #002b54;
+  }
+  100% {
+    transform: none;
+    fill: #49c7ee;
+  }
+}
+
+.fourthmove,
+.boxmove {
+  animation: 5s box-move infinite alternate ease;
+}
+
+@keyframes open-door {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    transform: translate(-30%, 0);
+    fill: #002b54;
+  }
+  80% {
+    transform: translate(1px, 0);
+    fill: #002b54;
+  }
+  100% {
+    transform: translate(1px, 0);
+    fill: #49c7ee;
+  }
+}
+
+.opening {
+  animation: 5s open-door infinite alternate ease;
 }
 
 /* ==============================
@@ -526,6 +572,13 @@ p,
 ol,
 ul {
   max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+svg {
+  max-width: 400px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
