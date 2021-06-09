@@ -473,6 +473,21 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+  .navtoggle.responsive nav {
+    margin: 4px 0px 0px;
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    display: block;
+    padding: 0px 4px;
+    border-top: none;
+  }
+
+  .navtoggle.responsive li.brackets {
+    padding: 0;
+  }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
