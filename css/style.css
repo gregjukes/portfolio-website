@@ -132,29 +132,29 @@ svg {
 }
 
 .button.contact {
-  background-color: #fd5f00;
-  color: #ffffff;
+  background-color: #13334c;
+  color: #fff;
+
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border: 2px solid #fd5f00;
+  border: 2px solid #13334c;
+
   /* width of the border, type, color */
-  transition: 0.2s opacity;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-  background-color: #ffffff;
-  color: #fd5f00;
-  border: 2px solid #fd5f00;
-  opacity: 0.8;
+  background-color: #fff;
+  color: #005792;
+  border: 2px solid #005792;
 }
 
 .button.contact:active {
-  background-color: transparent;
-  color: #e63f0b;
-  border: 2px solid #e63f0b;
+  background-color: #fff;
+  color: #4600e0;
+  border: 2px solid #4600e0;
 }
 
 #emailbutton {
