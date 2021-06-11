@@ -185,6 +185,8 @@ footer {
 #social_icons {
   width: 100%;
   text-align: center;
+  font-size: 1.2em;
+  font-variant: small-caps;
 }
 
 #social_icons img {
