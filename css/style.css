@@ -58,13 +58,12 @@ h4 {
 }
 
 a {
-  color: #4627ff;
+  color: #005792;
   text-decoration: none;
-  font-variant: small-caps;
 }
 
 a:visited {
-  color: #005792;
+  color: #4627ff;
 }
 
 a:hover,
@@ -95,8 +94,6 @@ svg {
   color: #005792;
   font-size: 1.3em;
   font-weight: 400;
-  font-variant: normal;
-  /* needed to override the default small-caps font variant */
 
   padding: 10px;
   border-radius: 3px;
@@ -126,8 +123,6 @@ svg {
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 400;
-  font-variant: normal;
-  /* needed to override the default small-caps font variant */
   padding: 10px;
   border-radius: 3px;
   border: 2px solid #fd5f00;
