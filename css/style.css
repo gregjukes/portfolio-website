@@ -632,6 +632,11 @@ Large devices (1024px or larger)
   body {
     font-size: 22px;
   }
+
+  main {
+    padding-top: 75px;
+  }
+
   .col-lg-5 {
     width: 41.66%;
   }
@@ -639,13 +644,10 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 58.33%;
   }
-}
 
-.projectnav {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  max-width: 100%;
+  #workhero span {
+    max-width: 1000px;
+  }
 }
 
 /* ==============================
