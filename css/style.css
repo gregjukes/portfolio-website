@@ -624,6 +624,11 @@ End nav brackets animation
     margin-right: auto;
   }
 
+  #contact h2 {
+    text-align: center;
+    color: #13334c;
+  }
+
 }
 
 /* ==============================
