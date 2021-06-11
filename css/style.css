@@ -106,7 +106,14 @@ svg {
   border: 2px solid #005792;
 
   /* width of the border, type, color */
+  transition-duration: 0.5s;
   transition-property: border;
+}
+
+.button:visited {
+  color: #005792;
+
+  /* needed to keep the look of the button consistent even if the content has been visited */
 }
 
 .button:hover,
