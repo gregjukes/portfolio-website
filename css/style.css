@@ -371,17 +371,30 @@ nav > ul > li > a:active {
   font-weight: 600;
 }
 
-#hero,
-#workhero {
+#hero {
   background-color: #f7f7eb;
   display: inline-block;
   padding: 0.5em 0;
   width: 100%;
 }
 
+#workhero {
+  background-color: #f7f7eb;
+  display: inline-block;
+  padding: 1.5em 0;
+  width: 100%;
+}
+
 #workhero h1 {
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: center;
+}
+
+#workhero span {
+  display: block;
+  font-size: 0.8em;
+  padding: 0.5em 0;
+  text-align: left;
 }
 
 #about h2,
@@ -585,14 +598,18 @@ End nav brackets animation
     padding-top: 69px;
   }
 
-  #hero,
-  #workhero {
+  #hero {
     text-align: center;
   }
+
+  #workhero {
+    padding: 2em 0;
+  }
+
   #workhero span {
-    display: block;
+    font-size: 1em;
     text-align: left;
-    max-width: 1000px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -624,6 +641,7 @@ End nav brackets animation
 
   #work h2 {
     margin: 16px 0;
+    padding: 0 8px;
   }
 
   #work h3 {
