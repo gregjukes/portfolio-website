@@ -14,12 +14,12 @@ White: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Source Serif Pro", serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.3;
-  color: #000000;
+  color: #000;
 }
 
 h1,
@@ -91,19 +91,18 @@ svg {
 
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #f7f7eb;
   color: #005792;
-  /* needed to override the default link color */
   font-size: 1.3em;
   font-weight: 400;
   font-variant: normal;
   /* needed to override the default small-caps font variant */
+
   padding: 10px;
   border-radius: 3px;
   border: 2px solid #005792;
+
   /* width of the border, type, color */
-  transition-duration: 1s;
   transition-property: border;
 }
 
@@ -156,10 +155,9 @@ svg {
 }
 
 /* Layout styling */
-
 header {
   background-color: #f7f7eb;
-  box-shadow: 0px 4px 4px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.75);
   padding: 7px 0;
   position: fixed;
   width: 100%;
@@ -252,7 +250,6 @@ nav > ul > li > a {
   padding: 0 4px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-variant: none;
   color: #005792;
   text-transform: none;
 }
@@ -291,6 +288,7 @@ nav > ul > li > a:active {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
+
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
@@ -380,18 +378,20 @@ nav > ul > li > a:active {
 /* ==============================
 CSS animation
 ================================= */
-
 @keyframes the-move {
   0% {
     transform: translate(-20.5%, 10%) rotate(-4deg);
   }
+
   40% {
     transform: translate(-20.5%, 10%) rotate(-4deg);
   }
+
   80% {
     transform: none;
     fill: #002b54;
   }
+
   100% {
     transform: none;
     fill: #49c7ee;
@@ -406,13 +406,16 @@ CSS animation
   0% {
     transform: translate(-42.5%, 38%) rotate(-26deg);
   }
+
   40% {
     transform: translate(-42.5%, 38%) rotate(-26deg);
   }
+
   80% {
     transform: none;
     fill: #002b54;
   }
+
   100% {
     transform: none;
     fill: #49c7ee;
@@ -427,13 +430,16 @@ CSS animation
   0% {
     transform: translate(-13%, 18%) rotate(-16deg);
   }
+
   40% {
     transform: translate(-13%, 18%) rotate(-16deg);
   }
+
   80% {
     transform: none;
     fill: #002b54;
   }
+
   100% {
     transform: none;
     fill: #49c7ee;
@@ -449,14 +455,17 @@ CSS animation
   0% {
     transform: translate(-30%, 0);
   }
+
   50% {
     transform: translate(-30%, 0);
     fill: #002b54;
   }
+
   80% {
     transform: translate(1px, 0);
     fill: #002b54;
   }
+
   100% {
     transform: translate(1px, 0);
     fill: #49c7ee;
@@ -490,13 +499,13 @@ Medium devices (640px and larger)
   }
 
   .navtoggle.responsive nav {
-    margin: 4px 0px 0px;
+    margin: 4px 0 0;
     padding: 0;
   }
 
   .navtoggle.responsive li {
     display: block;
-    padding: 0px 4px;
+    padding: 0 4px;
     border-top: none;
   }
 
@@ -515,37 +524,37 @@ Medium devices (640px and larger)
   /* ==============================
 Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
 ================================= */
-  nav > ul > li.brackets a:before,
-  nav > ul > li.brackets a:after {
+  nav > ul > li.brackets a::before,
+  nav > ul > li.brackets a::after {
     display: inline-block;
     position: flex;
     opacity: 0;
     font-size: 1.2em;
-    top: 0px;
+    top: 0;
     transition: all 0.5s;
   }
 
-  nav > ul > li.brackets a:before {
+  nav > ul > li.brackets a::before {
     content: "(";
-    left: 0px;
+    left: 0;
     transform: translateX(10px);
   }
 
-  nav > ul > li.brackets a:after {
+  nav > ul > li.brackets a::after {
     content: ")";
-    right: 0px;
+    right: 0;
     transform: translateX(-10px);
   }
 
-  nav > ul > li.brackets a:hover:before,
-  nav > ul > li.brackets a:hover:after {
+  nav > ul > li.brackets a:hover::before,
+  nav > ul > li.brackets a:hover::after {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
+
   /* ==============================
 End nav brackets animation
 ================================= */
-
   main {
     padding-top: 69px;
   }
@@ -592,8 +601,9 @@ End nav brackets animation
   }
 
   #work h3 {
-    margin: 0 0 8px 0;
+    margin: 0 0 8px;
   }
+
   #work p {
     margin: 8px 0;
   }
@@ -601,18 +611,17 @@ End nav brackets animation
   #work img {
     padding-top: 8px;
   }
-}
 
-h2,
-h3,
-h4,
-p,
-ol,
-ul {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  h2,
+  h3,
+  h4,
+  p,
+  ol,
+  ul {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 svg {
   max-width: 400px;
@@ -631,6 +640,7 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 41.66%;
   }
+
   .col-lg-7 {
     width: 58.33%;
   }
@@ -642,6 +652,7 @@ Large devices (1024px or larger)
   flex-direction: column;
   max-width: 100%;
 }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
