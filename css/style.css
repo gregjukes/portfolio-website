@@ -84,8 +84,15 @@ svg {
 }
 
 svg {
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#svg-animation {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .button {
@@ -618,11 +625,6 @@ End nav brackets animation
     margin-right: auto;
   }
 
-svg {
-  max-width: 400px;
-  max-height: 400px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ==============================
