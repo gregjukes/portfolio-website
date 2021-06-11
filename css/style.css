@@ -566,7 +566,6 @@ Nav brackets animation from https://codepen.io/EvyatarDa/pen/waKXMd
   nav > ul > li.brackets a::before,
   nav > ul > li.brackets a::after {
     display: inline-block;
-    position: flex;
     opacity: 0;
     font-size: 1.2em;
     top: 0;
