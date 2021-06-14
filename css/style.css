@@ -13,6 +13,10 @@ White: #ffffff;
   box-sizing: border-box;
 }
 
+htmi {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
   font-family: "Source Serif Pro", serif;
